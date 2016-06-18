@@ -1,0 +1,30 @@
+#Clock
+Net "clk" LOC="B8";
+Net "clk" IOSTANDARD = LVCMOS33;
+
+#Keys
+Net "keys[0]" LOC="C13" | IOSTANDARD = LVCMOS33;
+Net "keys[1]" LOC="D12" | IOSTANDARD = LVCMOS33;
+Net "keys[2]" LOC="C12" | IOSTANDARD = LVCMOS33;
+Net "keys[3]" LOC="C10" | IOSTANDARD = LVCMOS33;
+
+#Audio sample output
+Net "sample[0]" LOC="A10" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+Net "sample[1]" LOC="C8" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+Net "sample[2]" LOC="B4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+Net "sample[3]" LOC="B1" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+# Red (GPIO0)
+Net "rgb[0]" LOC="L5" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+# Green (GPIO1)
+Net "rgb[1]" LOC="P1" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+# Blue (GPIO2)
+Net "rgb[2]" LOC="P2" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+# hsync (GPIO3)
+Net "hsync" LOC="M1" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+# vsync (GPIO4)
+Net "vsync" LOC="R1" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;

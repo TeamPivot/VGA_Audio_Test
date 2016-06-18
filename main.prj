@@ -1,0 +1,4 @@
+verilog work "VGA_Controller.v"
+verilog work "ROM.v"
+verilog work "CLK_DIV.v"
+verilog work "main.v"

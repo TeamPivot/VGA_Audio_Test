@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\nimer\Documents\Verilog Projects\VGA_Piano\main.ncd
+OUTFILE=C:\Users\nimer\Documents\Verilog Projects\VGA_Piano\main.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5ft256
+WORKINGDIR=C:\Users\nimer\Documents\Verilog Projects\VGA_Piano
+LICENSE=WebPack
+USER_INFO=__0_0_0
